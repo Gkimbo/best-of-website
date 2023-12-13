@@ -1,9 +1,9 @@
-import image1 from "../images/tuft&needle-mattress.jpeg";
-import image2 from "../images/Linenspa 8 Inch.jpeg";
-import image3 from "../images/Casper Mattress.jpeg";
-import image4 from "../images/Cool-Gel Mattress.jpeg";
-import image5 from "../images/Happsy-Organic-Mattress.jpeg";
-import image6 from "../images/Zinus - Green Mattress.jpeg";
+import image1 from "../images/mattresses/tuft&needle-mattress.jpeg";
+import image2 from "../images/mattresses/Linenspa 8 Inch.jpeg";
+import image3 from "../images/mattresses/Casper Mattress.jpeg";
+import image4 from "../images/mattresses/Cool-Gel Mattress.jpeg";
+import image5 from "../images/mattresses/Happsy-Organic-Mattress.jpeg";
+import image6 from "../images/mattresses/Zinus - Green Mattress.jpeg";
 
 export const mattressReviews = [
 	{
