@@ -35,7 +35,11 @@ const TopPicks = ({
 					</ul>
 				</div>
 			</div>
-			<p className="top-picks-description">{descriptionShort}</p>
+			<p className="top-picks-description">{descriptionShort.par1}</p>
+			<p className="top-picks-description">{descriptionShort.par2}</p>
+			<p className="top-picks-description">{descriptionShort.par3}</p>
+			<p className="top-picks-description">{descriptionShort.par4}</p>
+			<p className="top-picks-description">{descriptionShort.par5}</p>
 			<a href={link}>Buy on Amazon for ${price}</a>
 		</div>
 	);
