@@ -30,6 +30,13 @@ const TopBar = () => {
 						>
 							Amazons Best Mattresses
 						</NavLink>
+						<NavLink
+							to="/best-couches-on-amazon"
+							activeClassName="active"
+							onClick={toggleMenu}
+						>
+							Amazons Best Couches
+						</NavLink>
 						<p>---------------</p>
 						<NavLink
 							to="/contact"
