@@ -189,3 +189,37 @@ code {
 .top-picks-tile a:hover {
 	background-color: #45a049;
 }
+
+.header {
+	color: #333;
+}
+
+.description {
+	color: #666;
+}
+
+.category-section {
+	margin-top: 20px;
+}
+
+.category-title {
+	color: #333;
+}
+
+.category-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.category-item {
+	margin-bottom: 10px;
+}
+
+.category-link {
+	color: #007bff;
+	text-decoration: none;
+}
+
+.category-link:hover {
+	text-decoration: underline;
+}
