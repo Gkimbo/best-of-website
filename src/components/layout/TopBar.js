@@ -11,7 +11,7 @@ const TopBar = () => {
 
 	return (
 		<div className={`top-bar ${isMenuOpen ? "menu-open" : ""}`}>
-			<div className="logo">Logo</div>
+			<div className="logo">Home Product Reviews</div>
 			<div className="nav-links">
 				<NavLink exact to="/" activeClassName="active" className="home-link">
 					Home
