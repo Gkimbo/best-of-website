@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.484ccab4.css",
+    "main.js": "/static/js/main.3b2cc304.js",
+    "static/js/787.0630cef8.chunk.js": "/static/js/787.0630cef8.chunk.js",
+    "static/media/HONBAY-convertable-sofa.jpeg": "/static/media/HONBAY-convertable-sofa.5f3868d7378d54ee2420.jpeg",
+    "static/media/Casper Mattress.jpeg": "/static/media/Casper Mattress.adf6c82df6e094115295.jpeg",
+    "static/media/Love-seat.jpeg": "/static/media/Love-seat.f46da14037bc00e198fb.jpeg",
+    "static/media/Cool-Gel Mattress.jpeg": "/static/media/Cool-Gel Mattress.810647179585f1834c27.jpeg",
+    "static/media/modular-sofa.jpeg": "/static/media/modular-sofa.fa6160344db7c75d0a25.jpeg",
+    "static/media/comfy-couch.jpeg": "/static/media/comfy-couch.b70cfd9efdebc80916b4.jpeg",
+    "static/media/Linenspa 8 Inch.jpeg": "/static/media/Linenspa 8 Inch.ec9fb8b665ed2e31aa50.jpeg",
+    "static/media/leather-sofa.jpeg": "/static/media/leather-sofa.99abbc364d7db1006a41.jpeg",
+    "static/media/Zinus - Green Mattress.jpeg": "/static/media/Zinus - Green Mattress.29118089578a8f2b1201.jpeg",
+    "static/media/tuft&needle-mattress.jpeg": "/static/media/tuft&needle-mattress.9c6de5eca9ab1a28be27.jpeg",
+    "static/media/Mid-century-modern-sofa.jpeg": "/static/media/Mid-century-modern-sofa.eb401939fb35a713c743.jpeg",
+    "static/media/Happsy-Organic-Mattress.jpeg": "/static/media/Happsy-Organic-Mattress.ede67fee79823b51666c.jpeg",
+    "index.html": "/index.html",
+    "main.484ccab4.css.map": "/static/css/main.484ccab4.css.map",
+    "main.3b2cc304.js.map": "/static/js/main.3b2cc304.js.map",
+    "787.0630cef8.chunk.js.map": "/static/js/787.0630cef8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.484ccab4.css",
+    "static/js/main.3b2cc304.js"
+  ]
+}
