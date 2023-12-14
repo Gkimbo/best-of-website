@@ -85,7 +85,16 @@ code {
 	box-sizing: border-box;
 }
 
-/* Your CSS file */
+.container-1 {
+	width: 90%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+}
+
 .blog-intro {
 	max-width: 800px;
 	margin: 20px auto;
@@ -164,12 +173,18 @@ code {
 	font-size: 1.8rem;
 	margin-bottom: 12px;
 	color: #333;
+	@media (max-width: 460px) {
+		font-size: 1.3rem;
+	}
 }
 
 .top-picks-image {
 	max-width: 50%;
 	height: auto;
 	border-radius: 8px;
+	@media (max-width: 460px) {
+		max-width: 70%;
+	}
 }
 
 .top-picks-description {
@@ -192,34 +207,92 @@ code {
 
 .header {
 	color: #333;
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 20px;
 }
 
 .description {
-	color: #666;
+	color: #555;
+	text-align: center;
+	font-size: 1.2rem;
+	margin-bottom: 30px;
 }
 
 .category-section {
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 .category-title {
 	color: #333;
+	font-size: 2rem;
+	margin-bottom: 10px;
 }
 
 .category-list {
 	list-style-type: none;
-	padding: 0;
+	padding: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	@media (max-width: 900px) {
+		padding: 5%;
+	}
 }
 
 .category-item {
-	margin-bottom: 10px;
+	flex: 0 0 calc(33.333% - 20px);
+	margin-bottom: 30px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	@media (max-width: 900px) {
+		padding: 5%;
+		width: 200%;
+	}
+	@media (max-width: 740px) {
+		flex: 0 0 calc(100% - 20px);
+		width: 200px;
+	}
 }
 
 .category-link {
 	color: #007bff;
 	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.3rem;
+	transition: color 0.3s ease-in-out;
 }
 
 .category-link:hover {
+	color: #0056b3;
 	text-decoration: underline;
+}
+
+.overview-image {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+.overview-title {
+	font-size: 1.6rem;
+	margin-bottom: 12px;
+	color: #333;
+}
+
+.button-link {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #4caf50;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.button-link:hover {
+	background-color: #45a049;
 }

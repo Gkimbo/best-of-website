@@ -3,7 +3,7 @@ import image2 from "../images/couches/HONBAY-convertable-sofa.jpeg";
 import image3 from "../images/couches/Love-seat.jpeg";
 import image4 from "../images/couches/leather-sofa.jpeg";
 import image5 from "../images/couches/modular-sofa.jpeg";
-import image6 from "../images/couches/most-comfortable-couch.jpeg";
+import image6 from "../images/couches/comfy-couch.jpeg";
 export const couches = [
 	{
 		id: 1,
@@ -64,11 +64,16 @@ export const couches = [
 		id: 6,
 		pick: 6,
 		title: "MOST COMFORTABLE COUCH ON AMAZON",
-		name: "Amazon Brand - Stone & Beam Westview - Extra Deep Down Filled Couch",
-		descriptionShort:
-			"This couch, with its deep cushions and sturdy frame, will help you add maximum comfort and style to any living space in your home. Never believe that you have to sacrifice comfort for style—this couch has it both in spades. Solid wood frame and block legs with durable 100% polyester fabric upholstery, heavy-duty webbing, and down-filled cushions Seat and back cushions are filled with luxurious down. Assemble in 15 minutes or less. To clean, avoid moisture and wipe down with a clean, soft cloth.",
+		name: "Acanva - Modern Minimalist Sofa with Extra Deep Seats",
+		descriptionShort: `Minimalist Design - The white modern sofa couch makes a statement of casual sophistication with a spacious and clean-line design. Extra deep and overstuffed foam cushion invite lounging while wool-like fabric with a charming nubby texture delights the senses. 
+			Wool-like Upholstery - Covered in a soft and plush wool-like fabric, this couch sofa for living room offers you a feeling of relaxation and sink-in comfort while lounging. Comes with fluffy back cushions and throw pillows providing a premium seating experience. 
+			Sturdy Frame - Completed with a sturdy solid wood frame, no-sag springs, and wood legs, this large couch sofa features years of support. 
+			Measures W94.5 x D42.5 x H23.6, weight capacity is about 660 lbs. 
+			Ideal Lounge Furniture - Perfect for conversation pits, family movie nights or game room, this deep seat sofa brings you and your family in pampered bliss. 
+			No Assembly & Easy to Clean - The 3-seater couch ships in one box for easy delivery. 
+			Easy to clean - spot clean with a damp cloth.`,
 		image: image6,
-		link: "https://amzn.to/41m7Zf2",
-		price: "1,244.80",
+		link: "https://amzn.to/3RjAeqh",
+		price: "1,482.41",
 	},
 ];
