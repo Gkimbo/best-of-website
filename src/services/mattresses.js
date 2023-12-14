@@ -16,6 +16,8 @@ export const mattressReviews = [
 		image: image1,
 		link: "https://amzn.to/48a0wTb",
 		price: "1,395.00",
+		pros: ["test"],
+		cons: ["test"],
 	},
 	{
 		id: 2,
@@ -27,6 +29,8 @@ export const mattressReviews = [
 		image: image2,
 		link: "https://amzn.to/41l1UiW",
 		price: "249.99",
+		pros: ["test"],
+		cons: ["test"],
 	},
 	{
 		id: 3,
@@ -38,6 +42,8 @@ export const mattressReviews = [
 		image: image3,
 		link: "https://amzn.to/41iX9Xl",
 		price: "1,036.00",
+		pros: ["test"],
+		cons: ["test"],
 	},
 	{
 		id: 4,
@@ -49,6 +55,8 @@ export const mattressReviews = [
 		image: image4,
 		link: "https://amzn.to/41mKQcv",
 		price: "259.98",
+		pros: ["test"],
+		cons: ["test"],
 	},
 	{
 		id: 5,
@@ -60,6 +68,8 @@ export const mattressReviews = [
 		image: image5,
 		link: "https://amzn.to/46XDAVq",
 		price: "1,399.00",
+		pros: ["test"],
+		cons: ["test"],
 	},
 	{
 		id: 6,
@@ -71,5 +81,7 @@ export const mattressReviews = [
 		image: image6,
 		link: "https://amzn.to/4amgYRq",
 		price: "335.99",
+		pros: ["test"],
+		cons: ["test"],
 	},
 ];

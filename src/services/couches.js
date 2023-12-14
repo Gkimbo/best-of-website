@@ -15,6 +15,8 @@ export const couches = [
 		image: image1,
 		link: "https://amzn.to/3RFAtxg",
 		price: "405.00",
+		pros: ["test"],
+		cons: ["test"],
 	},
 	{
 		id: 2,
@@ -26,6 +28,8 @@ export const couches = [
 		image: image2,
 		link: "https://amzn.to/3RHzj4g",
 		price: "319.99",
+		pros: ["test"],
+		cons: ["test"],
 	},
 	{
 		id: 3,
@@ -37,6 +41,8 @@ export const couches = [
 		image: image3,
 		link: "https://amzn.to/41kPyre",
 		price: "419.99",
+		pros: ["test"],
+		cons: ["test"],
 	},
 	{
 		id: 4,
@@ -48,6 +54,8 @@ export const couches = [
 		image: image4,
 		link: "https://amzn.to/3Tm55oz",
 		price: "440.25",
+		pros: ["test"],
+		cons: ["test"],
 	},
 	{
 		id: 5,
@@ -59,6 +67,8 @@ export const couches = [
 		image: image5,
 		link: "https://amzn.to/47V6MxW",
 		price: "929.99",
+		pros: ["test"],
+		cons: ["test"],
 	},
 	{
 		id: 6,
@@ -75,5 +85,7 @@ export const couches = [
 		image: image6,
 		link: "https://amzn.to/3RjAeqh",
 		price: "1,482.41",
+		pros: ["test"],
+		cons: ["test"],
 	},
 ];
