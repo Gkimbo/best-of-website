@@ -13,9 +13,9 @@ const TopPicks = ({
 }) => {
 	return (
 		<div className="top-picks-tile">
-			<h1>#{pick}</h1>
-			<h2>{title}</h2>
-			<h2 className="top-picks-title">{name}</h2>
+			<h2>#{pick}</h2>
+			<h3>{title}</h3>
+			<h3 className="top-picks-title">{name}</h3>
 			<img src={image} alt={name} className="top-picks-image" />
 			<div class="pros-cons-table">
 				<div class="pros">
