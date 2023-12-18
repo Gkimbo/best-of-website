@@ -12,10 +12,7 @@ export const CouchReviews = (props) => {
 					name="description"
 					content="Read reviews for our favorite Couches and Sofas you can find on Amazon."
 				/>
-				<link
-					rel="canonical"
-					href="homeproductrating.com/best-couches-on-amazon"
-				/>
+				<link rel="canonical" href="/best-couches-on-amazon" />
 			</Helmet>
 			<div className="container-1">
 				<div className="blog-intro">
