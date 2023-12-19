@@ -13,7 +13,7 @@ const HomePage = () => {
 					name="description"
 					content="Read reviews of furniture on Amazon"
 				/>
-				<link rel="canonical" href="homeproductrating.com/" />
+				<link rel="canonical" href="/" />
 			</Helmet>
 			<div className="container">
 				<h1 className="header">Welcome to Our Home Products Blog</h1>
