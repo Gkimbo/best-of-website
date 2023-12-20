@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import image1 from "../images/mattresses/tuft&needle-mattress.jpeg";
-import image2 from "../images/couches/comfy-couch.jpeg";
+import image2 from "../images/couches/modular-sofa.jpeg";
 import { Helmet } from "react-helmet-async";
 
 const HomePage = () => {
@@ -41,6 +41,7 @@ const HomePage = () => {
 							<Link to="/best-mattresses-on-amazon" className="category-link">
 								See the Top 6 Mattresses on Amazon
 							</Link>
+							<h2 className="overview-title">#1</h2>
 							<h2 className="overview-title">
 								Tuft & Needle - Legacy Original Mattress
 							</h2>
@@ -57,16 +58,17 @@ const HomePage = () => {
 							<Link to="/best-couches-on-amazon" className="category-link">
 								See the Top 6 Couches on Amazon
 							</Link>
+							<h2 className="overview-title">#1</h2>
 							<h2 className="overview-title">
-								Acanva - Modern Sofa with Deep Seats
+								Modular Sectional Sofa with Reversible Chaise
 							</h2>
 							<img
 								src={image2}
-								alt="Acanva Modern Minimalist Sofa"
+								alt="Modular Sectional Sofa"
 								className="overview-image"
 							/>
-							<a href="https://amzn.to/3RjAeqh" className="button-link">
-								Buy on Amazon for $1,482.41
+							<a href="https://amzn.to/47V6MxW" className="button-link">
+								Buy on Amazon for $929.99
 							</a>
 						</li>
 					</ul>
