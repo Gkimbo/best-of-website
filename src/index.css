@@ -24,12 +24,18 @@ code {
 .logo {
 	font-size: 1.5em;
 	font-weight: bold;
+	@media (max-width: 600px) {
+		font-size: 0.7em;
+	}
 }
 
 .nav-links a.home-link {
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
+	@media (max-width: 600px) {
+		font-size: 0.5em;
+	}
 }
 
 .nav-links {
@@ -51,6 +57,11 @@ code {
 	background-color: #fff;
 	margin: 6px 0;
 	transition: 0.4s;
+	@media (max-width: 600px) {
+		height: 2px;
+		width: 30px;
+		margin: 3px 0;
+	}
 }
 
 .menu {
@@ -64,11 +75,17 @@ code {
 	gap: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	backdrop-filter: blur(4px);
+	@media (max-width: 600px) {
+		font-size: 0.6em;
+	}
 }
 
 .menu a {
 	color: #fff;
 	text-decoration: none;
+	@media (max-width: 600px) {
+		font-size: 0.6em;
+	}
 }
 
 .menu a:hover {
@@ -106,22 +123,37 @@ code {
 	text-align: center;
 }
 
+.blog-intro h2 {
+	@media (max-width: 600px) {
+		font-size: 1.2rem;
+	}
+}
+
 .blog-title {
 	font-size: 2.5rem;
 	margin-bottom: 20px;
 	color: #333;
+	@media (max-width: 600px) {
+		font-size: 1.5rem;
+	}
 }
 
 .blog-description {
 	font-size: 1.2rem;
 	margin-bottom: 20px;
 	color: #555;
+	@media (max-width: 600px) {
+		font-size: 0.7rem;
+	}
 }
 
 .blog-content {
 	font-size: 1.1rem;
 	color: #666;
 	line-height: 1.6;
+	@media (max-width: 600px) {
+		font-size: 0.6rem;
+	}
 }
 
 .container-tiles {
@@ -169,6 +201,12 @@ code {
 	overflow: hidden;
 }
 
+.top-picks-tile h3 {
+	@media (max-width: 600px) {
+		font-size: 0.9rem;
+	}
+}
+
 .top-picks-title {
 	font-size: 1.8rem;
 	margin-bottom: 12px;
@@ -206,6 +244,10 @@ code {
 	text-decoration: none;
 	border-radius: 4px;
 	transition: background-color 0.3s ease-in-out;
+	@media (max-width: 460px) {
+		padding: 5px 10px;
+		font-size: 0.7rem;
+	}
 }
 
 .top-picks-tile a:hover {
@@ -217,6 +259,9 @@ code {
 	text-align: center;
 	font-size: 2.5rem;
 	margin-bottom: 20px;
+	@media (max-width: 600px) {
+		font-size: 1.5rem;
+	}
 }
 
 .description {
@@ -224,6 +269,9 @@ code {
 	text-align: center;
 	font-size: 1.2rem;
 	margin-bottom: 30px;
+	@media (max-width: 600px) {
+		font-size: 0.7rem;
+	}
 }
 
 .category-section {
@@ -234,6 +282,9 @@ code {
 	color: #333;
 	font-size: 2rem;
 	margin-bottom: 10px;
+	@media (max-width: 600px) {
+		font-size: 1rem;
+	}
 }
 
 .category-list {
@@ -281,12 +332,18 @@ code {
 	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
+	@media (max-width: 600px) {
+		max-width: 50%;
+	}
 }
 
 .overview-title {
 	font-size: 1.6rem;
 	margin-bottom: 12px;
 	color: #333;
+	@media (max-width: 600px) {
+		font-size: 1rem;
+	}
 }
 
 .button-link {
@@ -298,6 +355,10 @@ code {
 	border-radius: 5px;
 	font-weight: bold;
 	transition: background-color 0.3s ease-in-out;
+	@media (max-width: 600px) {
+		padding: 5px 10px;
+		font-size: 0.7rem;
+	}
 }
 
 .button-link:hover {
