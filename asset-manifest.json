@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.484ccab4.css",
-    "main.js": "/static/js/main.1b1dbea9.js",
+    "main.css": "/static/css/main.e8b2481f.css",
+    "main.js": "/static/js/main.541892e7.js",
     "static/js/787.0630cef8.chunk.js": "/static/js/787.0630cef8.chunk.js",
     "static/media/HONBAY-convertable-sofa.jpeg": "/static/media/HONBAY-convertable-sofa.5f3868d7378d54ee2420.jpeg",
     "static/media/Casper Mattress.jpeg": "/static/media/Casper Mattress.adf6c82df6e094115295.jpeg",
@@ -16,12 +16,12 @@
     "static/media/Mid-century-modern-sofa.jpeg": "/static/media/Mid-century-modern-sofa.eb401939fb35a713c743.jpeg",
     "static/media/Happsy-Organic-Mattress.jpeg": "/static/media/Happsy-Organic-Mattress.ede67fee79823b51666c.jpeg",
     "index.html": "/index.html",
-    "main.484ccab4.css.map": "/static/css/main.484ccab4.css.map",
-    "main.1b1dbea9.js.map": "/static/js/main.1b1dbea9.js.map",
+    "main.e8b2481f.css.map": "/static/css/main.e8b2481f.css.map",
+    "main.541892e7.js.map": "/static/js/main.541892e7.js.map",
     "787.0630cef8.chunk.js.map": "/static/js/787.0630cef8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.484ccab4.css",
-    "static/js/main.1b1dbea9.js"
+    "static/css/main.e8b2481f.css",
+    "static/js/main.541892e7.js"
   ]
 }
