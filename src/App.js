@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { MattressReviews } from "./components/MattressReviews";
-import { CouchReviews } from "./components/CouchReviews";
+import MattressReviews from "./components/MattressReviews";
+import CouchReviews from "./components/CouchReviews";
 import HomePage from "./components/HomePage";
 import TopBar from "./components/layout/TopBar";
 
