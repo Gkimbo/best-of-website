@@ -14,7 +14,7 @@ export const CouchReviews = (props) => {
 				/>
 				<link
 					rel="canonical"
-					href="homeproductrating.com/best-couches-on-amazon"
+					href="https://homeproductrating.com/best-couches-on-amazon"
 				/>
 			</Helmet>
 			<div className="container-1">

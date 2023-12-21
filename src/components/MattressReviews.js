@@ -15,7 +15,7 @@ export const MattressReviews = (props) => {
 				/>
 				<link
 					rel="canonical"
-					href="homeproductrating.com/best-mattresses-on-amazon"
+					href="https://homeproductrating.com/best-mattresses-on-amazon"
 				/>
 			</Helmet>
 			<div className="container-1">
