@@ -11,19 +11,19 @@ const HomePage = () => {
 				<title>Top 6 Couches and Sofas on Amazon</title>
 				<meta
 					name="description"
-					content="Read reviews of furniture on Amazon"
+					content="Explore the best home products on Amazon through our detailed reviews."
 				/>
-				<link rel="canonical" href="/" />
+				<link rel="canonical" href="homeproductrating.com/" />
 			</Helmet>
 			<div className="container">
 				<h1 className="header">Welcome to Our Home Products Blog</h1>
 				<p className="description">
-					Discover the best home products on Amazon from our experience and the
-					customers' reviews.
+					Discover the best home products on Amazon through our comprehensive
+					reviews and customer feedback.
 				</p>
 				<p className="description">
-					As we purchase and test more products, our categories will grow. So
-					Far we only we only have the 2 categories ({" "}
+					As we purchase and test more products, our categories will grow.
+					Currently, we have two categories:{" "}
 					<Link to="/best-mattresses-on-amazon" className="paragraph-link">
 						Top 6 Mattresses on Amazon
 					</Link>{" "}
@@ -31,7 +31,7 @@ const HomePage = () => {
 					<Link to="/best-couches-on-amazon" className="paragraph-link">
 						Top 6 Couches on Amazon
 					</Link>
-					). Check them out!
+					. Check them out!
 				</p>
 
 				<section className="category-section">
@@ -39,39 +39,65 @@ const HomePage = () => {
 					<ul className="category-list">
 						<li className="category-item">
 							<Link to="/best-mattresses-on-amazon" className="category-link">
-								See the Top 6 Mattresses on Amazon
+								Explore the Top 6 Mattresses on Amazon
 							</Link>
-							<h2 className="overview-title">#1</h2>
 							<h2 className="overview-title">
-								Tuft & Needle - Legacy Original Mattress
+								#1 - Tuft & Needle - Legacy Original Mattress
 							</h2>
 							<img
 								src={image1}
 								alt="tuft & needle mattress"
 								className="overview-image"
 							/>
-							<a href="https://amzn.to/48a0wTb" className="button-link">
-								Buy on Amazon for $1,395.00
-							</a>
+							<p>
+								Discover the comfort and quality of the Tuft & Needle Legacy
+								Original Mattress. Read our in-depth review and{" "}
+								<a
+									href="https://amzn.to/48a0wTb"
+									className="button-link"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Buy on Amazon for $1,395.00
+								</a>
+								.
+							</p>
 						</li>
 						<li className="category-item">
 							<Link to="/best-couches-on-amazon" className="category-link">
-								See the Top 6 Couches on Amazon
+								Check Out the Top 6 Couches on Amazon
 							</Link>
-							<h2 className="overview-title">#1</h2>
 							<h2 className="overview-title">
-								Modular Sectional Sofa with Reversible Chaise
+								#1 - Modular Sectional Sofa with Reversible Chaise
 							</h2>
 							<img
 								src={image2}
 								alt="Modular Sectional Sofa"
 								className="overview-image"
 							/>
-							<a href="https://amzn.to/47V6MxW" className="button-link">
-								Buy on Amazon for $929.99
-							</a>
+							<p>
+								Experience the versatility and style of the Modular Sectional
+								Sofa. Find out why it's a top pick and{" "}
+								<a
+									href="https://amzn.to/47V6MxW"
+									className="button-link"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Buy on Amazon for $929.99
+								</a>
+								.
+							</p>
 						</li>
 					</ul>
+				</section>
+
+				<section className="user-engagement-section">
+					<h2 className="user-engagement-title">Share Your Thoughts</h2>
+					<p className="user-engagement-description">
+						Have you tried any of these products? Share your experiences or ask
+						questions in the comments below.
+					</p>
 				</section>
 			</div>
 		</>

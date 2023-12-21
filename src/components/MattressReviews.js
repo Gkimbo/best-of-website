@@ -13,7 +13,10 @@ export const MattressReviews = (props) => {
 					name="description"
 					content="Read reviews for our favorite Mattresses you can find on Amazon."
 				/>
-				<link rel="canonical" href="/best-mattresses-on-amazon" />
+				<link
+					rel="canonical"
+					href="homeproductrating.com/best-mattresses-on-amazon"
+				/>
 			</Helmet>
 			<div className="container-1">
 				<div className="blog-intro">
