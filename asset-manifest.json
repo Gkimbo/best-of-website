@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e8b2481f.css",
-    "main.js": "/static/js/main.ca6f47e7.js",
+    "main.js": "/static/js/main.9b249f75.js",
     "static/js/787.0630cef8.chunk.js": "/static/js/787.0630cef8.chunk.js",
     "static/media/HONBAY-convertable-sofa.jpeg": "/static/media/HONBAY-convertable-sofa.5f3868d7378d54ee2420.jpeg",
     "static/media/Casper Mattress.jpeg": "/static/media/Casper Mattress.adf6c82df6e094115295.jpeg",
@@ -17,11 +17,11 @@
     "static/media/Happsy-Organic-Mattress.jpeg": "/static/media/Happsy-Organic-Mattress.ede67fee79823b51666c.jpeg",
     "index.html": "/index.html",
     "main.e8b2481f.css.map": "/static/css/main.e8b2481f.css.map",
-    "main.ca6f47e7.js.map": "/static/js/main.ca6f47e7.js.map",
+    "main.9b249f75.js.map": "/static/js/main.9b249f75.js.map",
     "787.0630cef8.chunk.js.map": "/static/js/787.0630cef8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8b2481f.css",
-    "static/js/main.ca6f47e7.js"
+    "static/js/main.9b249f75.js"
   ]
 }
