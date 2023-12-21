@@ -3,14 +3,14 @@ import TopPicks from "./product/TopPicks";
 import { couches } from "../services/couches";
 import { Helmet } from "react-helmet-async";
 
-export const CouchReviews = (props) => {
+const CouchReviews = (props) => {
 	return (
 		<>
 			<Helmet>
-				<title>Top 6 Couches and Sofas on Amazon</title>
+				<title>Top 6 Couches and Sofas on Amazon - Home Product Rating</title>
 				<meta
 					name="description"
-					content="Read reviews for our favorite Couches and Sofas you can find on Amazon."
+					content="Explore reviews for our handpicked selection of the best couches and sofas available on Amazon. Find comfort and style for your home."
 				/>
 				<link
 					rel="canonical"
@@ -28,19 +28,30 @@ export const CouchReviews = (props) => {
 					</p>
 					<p className="blog-content">
 						Elevate your lounging experience with a couch that goes beyond
-						expectations. The following couches have been purchased and tested
-						by us, and we want to give you a rundown of what we liked and didn't
-						like.
+						expectations. The following couches have been purchased, tested, and
+						meticulously reviewed by our experts. We're here to provide you with
+						a detailed rundown of what we loved and what we think could be
+						improved.
+					</p>
+					<p className="blog-content">
+						At Home Product Rating, we understand the importance of finding the
+						perfect couch for your space. Whether you prioritize comfort,
+						durability, or style, our reviews aim to help you make an informed
+						decision.
 					</p>
 				</div>
 
 				<div className="container">
-					<h2>My top picks: </h2>
-					{couches.map((couch) => (
-						<TopPicks key={couch.id} {...couch} />
-					))}
+					<h2>Our Top Picks:</h2>
+					<div className="top-picks-list">
+						{couches.map((couch) => (
+							<TopPicks key={couch.id} {...couch} />
+						))}
+					</div>
 				</div>
 			</div>
 		</>
 	);
 };
+
+export default CouchReviews;
