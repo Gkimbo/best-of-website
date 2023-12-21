@@ -1,17 +1,16 @@
 import React from "react";
-// import Product from "./product/productComponent";
 import TopPicks from "./product/TopPicks";
 import { mattressReviews } from "../services/mattresses";
 import { Helmet } from "react-helmet-async";
 
-export const MattressReviews = (props) => {
+const MattressReviews = (props) => {
 	return (
 		<>
 			<Helmet>
-				<title>Top 6 Mattresses on Amazon</title>
+				<title>Top 6 Mattresses on Amazon - Home Product Rating</title>
 				<meta
 					name="description"
-					content="Read reviews for our favorite Mattresses you can find on Amazon."
+					content="Explore reviews for our carefully selected top 6 mattresses available on Amazon. Discover the key features, pros, and cons to make an informed decision for a better night's sleep."
 				/>
 				<link
 					rel="canonical"
@@ -23,25 +22,35 @@ export const MattressReviews = (props) => {
 					<h1 className="blog-title">Discover Exceptional Comfort:</h1>
 					<h2>The Best Mattresses on Amazon</h2>
 					<p className="blog-description">
-						Welcome to our curated space where we delve into the realm of
-						excellence, guiding you through the top 6 Mattresses you can buy
+						Welcome to our curated space where we explore the realm of
+						excellence, guiding you through the top 6 mattresses you can buy
 						right now on Amazon.
 					</p>
 					<p className="blog-content">
-						Elevate your sleep experience with a mattress that goes beyond
-						expectations. The following Mattresses have been purchased and
-						tested by us and we want to give you a rundown of what we liked and
-						didn't like.
+						Elevate your sleep experience with a mattress that surpasses
+						expectations. Our team has carefully selected and tested the
+						following mattresses to provide you with a detailed rundown of what
+						impressed us and what we believe could be improved.
+					</p>
+					<p className="blog-content">
+						At Home Product Rating, we recognize the significance of choosing
+						the right mattress for a restful night's sleep. Whether you value
+						support, comfort, or durability, our reviews aim to assist you in
+						making a well-informed decision for your sleep sanctuary.
 					</p>
 				</div>
 
 				<div className="container">
-					<h2>My top 6 Picks: </h2>
-					{mattressReviews.map((mattress) => (
-						<TopPicks key={mattress.id} {...mattress} />
-					))}
+					<h2>Our Top 6 Picks:</h2>
+					<div className="top-picks-list">
+						{mattressReviews.map((mattress) => (
+							<TopPicks key={mattress.id} {...mattress} />
+						))}
+					</div>
 				</div>
 			</div>
 		</>
 	);
 };
+
+export default MattressReviews;
