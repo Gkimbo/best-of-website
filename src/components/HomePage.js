@@ -3,8 +3,15 @@ import { Link } from "react-router-dom";
 import image1 from "../images/mattresses/tuft&needle-mattress.jpeg";
 import image2 from "../images/couches/modular-sofa.jpeg";
 import { Helmet } from "react-helmet-async";
+import Disqus from "disqus-react";
 
 const HomePage = () => {
+	const disqusShortname = "Home-Page";
+	const disqusConfig = {
+		url: "https://homeproductrating.com/",
+		identifier: "home-page",
+		title: "Top 6 Couches and Sofas on Amazon",
+	};
 	return (
 		<>
 			<Helmet>
@@ -98,6 +105,11 @@ const HomePage = () => {
 						Have you tried any of these products? Share your experiences or ask
 						questions in the comments below.
 					</p>
+
+					<Disqus.DiscussionEmbed
+						shortname={disqusShortname}
+						config={disqusConfig}
+					/>
 				</section>
 			</div>
 		</>
